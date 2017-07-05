@@ -1,0 +1,1024 @@
+p{
+	font-family:Tahoma;
+}
+li{
+	font-family:Tahoma;
+	font-size: 13px;
+}
+#greybackground{
+	width: 1920px;
+	height: 1000px;
+	z-index:110;
+	position: absolute;
+	display: none;
+}
+#minimizevrienden{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 340px;
+	top: 37px;
+	z-index:8;
+	cursor:pointer;
+}
+#minimizevrienden2{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 340px;
+	top: 37px;
+	z-index:8;
+	cursor:pointer;
+}
+#minimizemeldingen{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 340px;
+	top: 20px;
+	z-index:8;
+	cursor:pointer;
+}
+#vriendschapverzoeken{
+	top: 18px;
+	position: absolute;
+	z-index: 4;
+	left: 1170px;
+	display: none;
+	
+}
+#meldingendiv{
+	top: 35px;
+	position: absolute;
+	z-index: 4;
+	left: 1440px;
+	display: none;
+}
+#vriendenbackground{
+position: absolute;
+}
+#vriendenbackground2{
+position: absolute;
+}
+.kruisje{
+	width:20px;
+	height:20px;
+	position:absolute;
+	left: 310px;
+	top: 3px;
+	cursor:pointer;
+}
+.vinkje{
+	width:20px;
+	height:20px;
+	position:absolute;
+	left: 335px;
+	top: 3px;
+	cursor:pointer;
+}
+.naam{
+	color:white;
+	font-family:arial;
+	font-size: 10pt;
+}
+#lauraliethof{
+	top: -7px;
+	left:60pt;
+	position: absolute;
+}
+#vriendin1{
+	width: 45px;
+	height: 45px;
+	left: 20px;
+	top: 7px;
+	position: absolute;
+	z-index: 7;
+}
+#vriendnummer1{
+	background-color: #0DB70D;
+	position: absolute;
+	top: 80px;
+	width:357px;
+	height: 60px;
+	z-index:5;
+	left: 10px;
+}
+#vriendnummer2{
+	background-color: #0DB70D;
+	position: absolute;
+	top: 150px;
+	width:357px;
+	height: 60px;
+	z-index:5;
+	left: 10px;
+}
+#vriendnummer3{
+	background-color: #0DB70D;
+	position: absolute;
+	top: 220px;
+	width:357px;
+	height: 60px;
+	z-index:5;
+	left: 10px;
+}
+
+#friendenlijst{
+	padding: 10px;
+	width: 400px;
+	height: 1300px;
+	top: -110px;
+	position: fixed;
+	z-index: -1;
+	left: 1700px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+
+
+
+.hidden{
+    display:none;
+}
+
+.unhidden{
+    display:block;
+}
+#about{
+	position: absolute;
+	z-index:1;
+	top: 34px;
+	left: 1000px;
+}
+#sluiten {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+#meldingenzz {
+	position: absolute;
+	z-index:1;
+	top: 38px;
+	left: 1035px;
+}
+
+
+#post2{
+	width: 515px; 
+	box-shadow: 3px 3px 5px #888888;
+	height: 470px;
+	position: absolute;
+	top: 1072px;
+	left: 370px;
+	background-color: white;
+	border-radius: 3px;
+}
+#p2foto {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+#p2naam{
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	color: #0DB70D;
+}
+#p2actie {
+	position: absolute;
+	top: 10px;
+	left: 190px;
+	color: grey;
+	font-size: 12px;
+}
+#p2datum{
+	top: 38px;
+	left: 69px;
+	position: absolute;
+	color: grey;
+	font-size: 12px;
+}
+#p2post {
+	position: absolute;
+	left: 20px;
+	top: 110px;
+	width: 468px;
+}
+#formpje2{
+	position: absolute;
+	left: 20px;
+	top: 350px;
+}
+#p2hot {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 317px;
+	left: 20px;
+	cursor: pointer;
+}#p2cold{
+	position: absolute;
+	top: 317px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	left: 47px;
+	
+}
+
+
+
+
+
+
+
+#post2pf{
+	width: 515px; 
+	height: 470px;
+	position: absolute;
+	top: 1072px;
+	left: 484px;
+	background-color: white;
+	border-radius: 3px;
+}
+#p2fotopf {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+#p2naampf{
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	color: #0DB70D;
+}
+#p2actiepf {
+	position: absolute;
+	top: 10px;
+	left: 190px;
+	color: grey;
+	font-size: 12px;
+}
+#p2datumpf{
+	top: 38px;
+	left: 69px;
+	position: absolute;
+	color: grey;
+	font-size: 12px;
+}
+#p2postpf {
+	position: absolute;
+	left: 20px;
+	top: 110px;
+	width: 468px;
+}
+#formpje2pf{
+	position: absolute;
+	left: 20px;
+	top: 350px;
+}
+#p2hotpf {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 317px;
+	left: 20px;
+	cursor: pointer;
+}#p2coldpf{
+	position: absolute;
+	top: 317px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	left: 47px;
+	
+}
+
+
+
+
+
+
+#postnr1pf{
+	position: absolute;
+	top: 1130px;
+	left: 895px;
+	width: 455px;
+	height: 480px;
+	border-radius: 3px;
+	background-color: white;
+}
+#pfp1pf {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+#pfn1pf {
+	position: absolute;
+	top: 10px;
+	left: 75px;
+	color: #0DB70D;
+}
+#pfa1pf{
+	position: absolute;
+	top: 18px;
+	left: 200px;
+	color: grey;
+	font-size: 12px;
+}
+#pfd1pf{
+	top: 40px;
+	left: 75px;
+	position: absolute;
+	color: grey;
+	font-size: 12px;
+}
+#pff1pf{
+	position: absolute;
+	width: 400px;
+	top: 110px;
+	left: 25px;
+	height: 220px;
+	
+}
+#coldonepf {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	left: 50px;
+	cursor: pointer;
+}
+#hotonepf{
+	position: absolute;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	top: 340px;
+	left: 25px;
+}
+#answerboxpf{
+	position: absolute;
+	left: 25px;
+	top: 380px;
+}
+
+
+
+
+
+
+
+
+#answerbox{
+	position: absolute;
+	left: 25px;
+	top: 380px;
+}
+#coldone {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 340px;
+	left: 50px;
+	cursor: pointer;
+}
+#hotone{
+	position: absolute;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	top: 340px;
+	left: 25px;
+}
+#pff1{
+	position: absolute;
+	width: 400px;
+	top: 110px;
+	left: 25px;
+	height: 220px;
+	
+}
+#pfd1{
+	top: 40px;
+	left: 75px;
+	position: absolute;
+	color: grey;
+	font-size: 12px;
+}
+#pfp1 {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+#pfa1{
+	position: absolute;
+	top: 18px;
+	left: 200px;
+	color: grey;
+	font-size: 12px;
+}
+#pfn1 {
+	position: absolute;
+	top: 10px;
+	left: 75px;
+	color: #0DB70D;
+}
+#postnr1{
+	position: absolute;
+	top: 640px;
+	left: 895px;
+	width: 455px;
+	height: 480px;
+	border-radius: 3px;
+	background-color: white;
+}
+#divfotos {
+	position: absolute;
+	top: 640px;
+	left: 500px;
+	width: 380px;
+	height: 175px;
+	background-color: white;
+	border-radius: 3px;
+}
+#fotos{
+	position: absolute;
+	left: 25px;
+}
+#foto2{
+	position: absolute;
+	left: 135px;
+	top: 55px;
+	width: 101px;
+	height: 101px;
+}
+#foto1{
+	position: absolute;
+	left: 25px;
+	top: 55px;
+	width: 101px;
+	height: 101px;
+}
+#foto3{
+	position: absolute;
+	left: 250px;
+	top: 55px;
+	width: 101px;
+	height: 101px;
+}
+
+#logo {
+	top: 10px;
+	position: absolute;
+	left: 20%;
+	width: 25px;
+	height: 25px;
+}
+html {
+       overflow-y: scroll;
+}
+body { 
+	height: 1800px;
+	background-color: #E9EBEE;
+	margin:0; 
+}
+#profielfoto{
+	position: absolute;
+	left: 60%;
+	margin: 10px;
+}
+#username{
+	font-family: Tahoma;
+	font-size: 17px;
+	position: absolute;
+	left: 62%;
+	top: -6px;
+	color: white;
+
+}
+#searchbar{
+	position: absolute;
+	top: 10px;
+	width: 250px;
+	left: 370px;
+}
+#zoeken{
+	top: 10px;
+	position: absolute;
+	left: 619px;
+}
+
+#startpagina {
+	position: absolute;
+	left: 1261px;
+	top: -6px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 17px;
+}
+#profielstuk{
+	position: absolute;
+	left: 500px;
+}
+#informatie{
+	position: absolute;
+	left: 25px;
+}
+#informatiepre{
+	position: absolute;
+	left: 25px;
+	top: 45px;
+}
+#berichtsturen{
+	position: absolute;
+	top: 425px;
+	left: 815px;
+	width: 535px;
+	height: 200px;
+	background-color: white;
+	border-radius: 3px;
+}
+#contactform2{
+	position: absolute;
+	top: 65px;
+	left: 25px;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+#logout{
+	position: absolute;
+	cursor: pointer;
+	left: 1500px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+#info{
+	position: absolute;
+	top: 425px;
+	left: 500px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	border-radius: 3px;
+}
+#streepje {
+	position: absolute;
+	left: 1243px;
+	top: -11px;
+	color: #CCCCCC;
+	font-size: 20px;
+}
+#streepje2 {
+	position: absolute;
+	left: 1360px;
+	top: -11px;
+	color: #CCCCCC;
+	font-size: 20px;
+}
+#vrienden {
+	cursor: pointer;
+	position: absolute;
+	left: 1375px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+#home {
+	cursor: pointer;
+	position: absolute;
+	left: 1407px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+
+#notifications {
+	cursor: pointer;
+	position: absolute;
+	left: 1440px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+#nieuwsoverzicht{
+	position: absolute;
+	left: 360px;
+}
+#newpost{
+	box-shadow: 3px 3px 5px #888888;
+	position: relative;
+	border-radius: 3px;
+}
+#fotoImg{
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	cursor: pointer;
+}
+#lijn{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+}
+
+#table{
+	position: absolute;
+	top: 5px;
+	left: 40px;
+	cursor: pointer;
+	
+}
+#text {
+	position: absolute;
+	left: 65px;
+	top: 5px;
+	cursor: pointer;
+}
+#list {
+	position: absolute;
+	left: 90px;
+	top: 5px;
+	cursor: pointer;
+	
+}
+#link{
+	position: absolute;
+	left: 115px;
+	top: 5px;
+	cursor: pointer;
+}
+#video{
+	position: absolute;
+	left: 140px;
+	top: 5px;
+	cursor: pointer;
+	
+}
+#titel{
+	position: absolute;
+	left: 165px;
+	top: 5px;
+	cursor: pointer;
+	
+}
+#voorbeeld {
+	position: fixed;
+	left: 1870px;
+	top: 311px;
+}
+#voorbeelddiv{
+	float: left;
+	top: 70px;
+	width: 100px;
+	height: 100px;
+	left: 1006px;
+	position: fixed;
+	background-color: white;
+	border-radius: 3px;
+	width: 515px; 
+	height: 270px;
+}
+#plaatsenbtn{
+	cursor: pointer;
+	position:absolute;
+	top: 455px;
+	left: 410px;
+}
+#openbaarbtn{
+	cursor: pointer;
+	position:absolute;
+	top: 455px;
+	left: 300px;
+}
+#gamespaneel {
+	position: absolute;
+	width: 355px;
+	height: 390px;
+	left: 1450px;
+	top: 900   px;
+	background-color: white;
+	border-radius: 3px;
+	
+}
+#weerbericht {
+	position: absolute;
+	width: 355px;
+	height: 390px;
+	left: 1450px;
+	top: 480px;
+	background-color: white;
+	border-radius: 3px;
+	
+}
+#rechtermenu {
+	position: fixed;
+	width: 355px;
+	height: 390px;
+	left: 1450px;
+	top: 71px;
+	background-color: white;
+	border-radius: 3px;
+}
+#rechtermenu2 {
+	position: fixed;
+	width: 355px;
+	height: 390px;
+	left: 1310px;
+	top: 71px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+#post1{
+	position: absolute;
+	box-shadow: 3px 3px 5px #888888;
+	background-color: white;
+	width: 515px; 
+	height: 470px;
+	top: 580px;
+	left: 370px;
+	border-radius: 3px;
+}
+
+#p1foto{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#p1naam{
+	position: relative;
+	left: 70px;
+	top: -35px;
+	color: #0DB70D;
+}
+#p1actie{
+	position: relative;
+	left: 185px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p1datum{
+	position: relative;
+	left: 70px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p1post {
+	position: relative;
+	left: 20px;
+	top: -25px;
+	width: 468px;
+}
+#p1hot {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: -455px;
+	cursor: pointer;
+}#p1cold{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	top: -26px;
+	left: 48px;
+	
+}
+#formpje{
+	position: absolute;
+	left: 22px;
+}
+
+
+
+
+
+
+#post3{
+	position: absolute;
+	background-color: white;
+	width: 515px; 
+	height: 488px;
+	top: 72px;
+	left: 910px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px #888888;
+}
+
+#p3foto{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#p3naam{
+	position: relative;
+	left: 70px;
+	top: -35px;
+	color: #0DB70D;
+}
+#p3actie{
+	position: relative;
+	left: 185px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p3datum{
+	position: relative;
+	left: 70px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p3post {
+	position: relative;
+	left: 20px;
+	top: -25px;
+	width: 468px;
+}
+#p3hot {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: -455px;
+	cursor: pointer;
+}#p3cold{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	top: -26px;
+	left: 48px;
+	
+}
+
+
+
+
+#post4{
+	position: absolute;
+	box-shadow: 3px 3px 5px #888888;
+	background-color: white;
+	width: 515px; 
+	height: 470px;
+	top: 580px;
+	left: 910px;
+	border-radius: 3px;
+}
+
+#p4foto{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#p4naam{
+	position: relative;
+	left: 70px;
+	top: -35px;
+	color: #0DB70D;
+}
+#p4actie{
+	position: relative;
+	left: 185px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p4datum{
+	position: relative;
+	left: 70px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+#p4post {
+	position: relative;
+	left: 20px;
+	top: -25px;
+	width: 468px;
+}
+#p4hot {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: -455px;
+	cursor: pointer;
+}#p4cold{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	top: -26px;
+	left: 48px;
+	
+}
+#formpje{
+	position: absolute;
+	left: 22px;
+}
+
+
+
+
+
+
+
+
+#canvas{
+	position: absolute;
+	top: 35px;
+	left: 16px;
+	padding:10px;
+	border:1px dashed gray;
+	background-color:#fafafa;
+	height:170px;
+	width: 480px;
+	height: 200px;
+}
+#dynamicframe{
+	position: absolute;
+	left: 16px;
+	top: 245px;
+	width: 478px;
+	height: 200px;
+}
+
+	
+.ed_button{
+	padding:5px;
+}
+#ed_italic_canvas{
+	font-style:italic;
+}
+#ed_bold_canvas{
+	font-weight:bold;
+}
+#ed_h1_canvas{
+	font-weight:bold;
+}
+#ed_h2_canvas{
+	font-weight:bold;
+}
+#ed_h3_canvas{
+	font-weight:bold;
+}
+#ed_h4_canvas{
+	font-weight:bold;
+}
+#ed_link_canvas{
+	color:blue;
+	text-decoration:underline;
+}
+#ed_toolbar_canvas{
+	background:#ddd;
+	padding:5px;
+	padding-top:2px;
+	border:2px solid #777;
+	float:left;
+	margin-top:25px;
+}
+
+.preview{
+		float:right;
+	padding:10px;
+	margin-top:-60px;
+	margin-bottom:10px;
+	font-size:12px;
+	border:1px gray dotted;
+	width:290px;
+}
+.preview h4{
+	font-size:14px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+

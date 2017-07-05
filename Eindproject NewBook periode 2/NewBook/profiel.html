@@ -1,0 +1,193 @@
+<DOCTPYE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/pstyles.css">
+<title>Patrick de Vos</title>
+
+</head>
+
+<body>
+
+<!-- SCRIPT VOOR BERICHTEN -->
+<script type="text/javascript">
+    function unhide(divID, otherDivId) {
+    var item = document.getElementById(divID);
+    if (item) {
+            item.className=(item.className=='hidden')?'unhidden':'hidden';
+        }
+        document.getElementById(otherDivId).className = 'hidden';
+    }
+</script>
+
+
+<div id="about" class="hidden">
+<div class="content3">
+<img onclick="unhide(this, 'about')" src="https://s3.postimg.org/y1pozqchv/berichtenn.gif"/>
+</div>
+</div>
+
+<div id="meldingenzz" class="hidden">
+<div class="content3">
+<img onclick="unhide(this, 'meldingenzz')" src="https://s21.postimg.org/jyu04gy53/msgg.gif"/>
+</div>
+</div>
+
+
+
+
+<!-- NAVIGATION -->
+<div style="background-color:#0DB70D; height:45px">
+<a href="index.html"><img id="logo" src="https://s15.postimg.org/ipv6x1fi3/logotje.gif"/></a>
+<img id="profielfoto" src="http://s14.postimg.org/9j7zgqrm9/profielfoto.jpg"/>
+<a href="profiel.html"><p id="username">Patrick</p></a>
+<input style="height: 25px;" placeholder="Zoek naar personen, plaatsen en dingen" id="searchbar" type="text" </input>
+<button style="height: 25px;" id="zoeken">Zoeken</button>
+<p id="streepje"> | </p>
+<a href="index.html"><p id="startpagina">Startpagina</p></a>
+<a href="javascript:unhide('about', 'link')"><img id="vrienden" src="http://s16.postimg.org/tts855md1/vrienden.gif" /></a>
+<a href="index.html"><img id="home" src="https://s14.postimg.org/3uyacgok1/mijnhuis.gif"/></a>
+<a href="javascript:unhide('meldingenzz', 'link')"><img id="notifications" src="http://s13.postimg.org/amgzkzzzr/notfi.gif"/></a>
+<a href="login.html"><img id="logout" src="https://s15.postimg.org/qp0lyyg63/logout2.gif"/></a>
+</div>
+
+<div id="profielstuk">
+<img src="https://s21.postimg.org/kn4s3q23b/bovenstukje.gif"/>
+</div>
+
+<div id="info">
+<h2 id="informatie">Informatie</h2>
+<pre style="font-family: arial; font-size: 13px;" id="informatiepre">
+Leeftijd: 17 jaar jong
+
+Land: Nederlands
+
+Afkomst: Nederlands
+
+Baan: DekaMarkt
+
+Relatie: Getrouwd
+</pre>
+</div>
+
+<div id="berichtsturen">
+<h2 id="informatie">Bericht sturen</h2>
+<form id="contactform2" name="contactform" method="post" action="php/send_message.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <input style="text-align: center" type="text" placeholder="Email adres" name="first_name" maxlength="50" size="60">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <input  style="text-align: center" type="text" placeholder="Bericht" name="email_address" maxlength="80" size="60">
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="image" src="https://s11.postimg.org/ni6ajb2gz/versturen.gif"  value="Reageren">
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+<div id="divfotos">
+<h2 id="fotos">Foto's</h2>
+<img id="foto1" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-0/p110x80/13901462_1074455652634806_7215728278136878633_n.jpg?oh=d2d7e2bdc84d406ecd0785b221753152&oe=587936E4"/>
+<img id="foto2" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-0/p110x80/13432261_897907477005186_8451619413001370916_n.jpg?oh=0ba0c97e1d69dd28686046b8a6eee7d8&oe=588107E6"/>
+<img id="foto3" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/10358134_929037433879555_5996283141574273628_n.jpg?oh=0ebb925bf60288f3f6a16e2dfaea80be&oe=58ADE1F0"/>
+
+</div>
+
+
+<!--BOVENSTE POST-->
+<div id="postnr1">
+<img id="pfp1" src="http://s14.postimg.org/9j7zgqrm9/profielfoto.jpg"/>
+<p id="pfn1">Patrick de Vos</p>
+<p id="pfa1">Heeft een nieuw bericht gepost!</p>
+<p id="pfd1">28 September 12:00</p>
+<iframe id="pff1" src="http://www.itunesplugin.com/post2.html"></iframe>
+<img title="Hot +1" id="hotone" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/512/Hot-icon.png"/>
+<img title="Cold -1" id="coldone" src="http://www.freeiconspng.com/uploads/fruits-in-ice-cube-icons-for-vista-xp-printbest-custom-glossy-online-16.gif"/>
+
+<form id="answerbox" name="contactform" method="post" action="php/post2_comment.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <input  style="text-align: center" type="text" placeholder="Email adres" name="first_name" maxlength="50" size="52">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <input  style="text-align: center" type="text" placeholder="Bericht" name="email_address" maxlength="80" size="52">
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="image" src="https://s17.postimg.org/fau6qtspb/rea.gif"  value="Reageren">
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+<!--POST2-->
+<div id="postnr1pf">
+<img id="pfp1pf" src="http://s14.postimg.org/9j7zgqrm9/profielfoto.jpg"/>
+<p id="pfn1pf">Patrick de Vos</p>
+<p id="pfa1pf">Heeft een nieuw bericht gepost!</p>
+<p id="pfd1pf">27 September 22:36</p>
+<iframe id="pff1pf" src="http://www.itunesplugin.com/post1.html"></iframe>
+<img title="Hot +1" id="hotonepf" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/512/Hot-icon.png"/>
+<img title="Cold -1" id="coldonepf" src="http://www.freeiconspng.com/uploads/fruits-in-ice-cube-icons-for-vista-xp-printbest-custom-glossy-online-16.gif"/>
+
+<form id="answerboxpf" name="contactform" method="post" action="php/post1_comment.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <input style="text-align: center" type="text" placeholder="Email adres" name="first_name" maxlength="50" size="52">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <input style="text-align: center" type="text" placeholder="Bericht" name="email_address" maxlength="80" size="52">
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="image" src="https://s17.postimg.org/fau6qtspb/rea.gif"  value="Reageren">
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div id="friendenlijst">
+<br><br><br><br><br><br><br><br>
+<p style="color:grey; font-family: tahoma; font-size: 11px;"><b>JOUW GAMES<b></p>
+<img src="https://scontent-amt2-1.xx.fbcdn.net/t39.2081-0/p50x50/851564_758403537517456_1241767605_n.png"/>
+<img style="position: relative; top: 15px; left: -60px;" src="https://s12.postimg.org/vrh77b3st/lijn.gif"/>
+<img style="position: relative; top: 15px; left: -70px;" src="https://s12.postimg.org/vrh77b3st/lijn.gif"/>
+<img style="position: relative; top: 15px; left: -80px;" src="https://s12.postimg.org/vrh77b3st/lijn.gif"/>
+<img style="position: relative; top: 15px; left: -90px;" src="https://s12.postimg.org/vrh77b3st/lijn.gif"/>
+<img style="position: relative; top: 15px; left: -100px;" src="https://s12.postimg.org/vrh77b3st/lijn.gif"/>
+<br><br>
+<p style="color:grey; font-family: tahoma; font-size: 11px;"><b>AANBEVOLEN GAMES<b></p>
+<img src="https://scontent-amt2-1.xx.fbcdn.net/t39.2081-0/p50x50/14050157_1127420177304473_2056973348_n.png"/>
+<img src="https://scontent-amt2-1.xx.fbcdn.net/t39.2081-0/p50x50/13695302_1818002188433106_468054133_n.png"/>
+<img src="https://scontent-amt2-1.xx.fbcdn.net/t39.2081-0/p50x50/13144854_1616748281981031_475360635_n.png"/>
+<img style="position: relative; top: 18px; left: -173px;" src="https://s15.postimg.org/moqm3tucr/lijn4.gif"/>
+<br><br>
+<img style="position: relative; left: -10px;" src="https://s21.postimg.org/xf5lmhcuf/vriendjes.gif"/>
+</div>
+
+</body>
+</html>

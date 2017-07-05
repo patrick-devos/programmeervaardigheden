@@ -1,0 +1,148 @@
+#footer{
+	position: absolute;
+	width: 500px;
+	height: 50px;
+	top: 915px;
+	left: 50px;
+}
+p{
+	font-family:arial;
+	color:white;
+}
+#inloggenNieuw{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	top: 250px;
+	border: solid grey 1px;
+}
+#registrerenNieuw{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	top: 451px;
+	border: solid grey 1px;
+}
+#glowImage{
+position: absolute;
+left:189px;
+top:234px;
+z-index:-1;	
+}
+#inloggenHeader{
+	color:green;
+	font-family: arial;
+}
+@font-face {
+    font-family: 'Custom';
+    src: url(petangu.otf) 
+}
+#inloggenn{
+	.input_wrapper{background:url('https://s11.postimg.org/uawopvc5v/aanmelden.gif');}
+	input{background:none}
+}
+#onderkanti2{
+	position: absolute;
+	top: 887px;
+	left:0px;
+	width: 1920px;
+	height: 97px;
+	background-color: green;
+    background-image: url("https://s22.postimg.org/bw6jb1aap/bovenkut.gif");
+}
+#topbar {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 45;
+	width: 1920px;
+	background-image: url("https://s22.postimg.org/bw6jb1aap/bovenkut.gif");
+}
+.newbookclass{
+	position: absolute;
+	top: 13px;
+	left: 420px;
+	color: white;
+	font-family: 'Custom';
+	font-size: 50pt;
+}
+body{
+    overflow-x:hidden;
+	overflow-y:hidden;
+}
+label{
+	font-family:arial;
+}
+td{
+	text-align:right;
+}
+
+#backgroundImageDiv{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index:-1;
+}
+#backgroundImage{
+	position: absolute;
+	width: 100%;
+	height: 110%;
+}
+#header{
+	position: absolute;
+	left: 150px;
+}
+p{
+	font-family: Tahoma;
+}
+#gebruikersnaam{
+	position: absolute;
+	left: 1200px;
+}
+#password{
+	position: absolute;
+	left: 1400px;
+}
+#firstname{
+	position: absolute;
+	float: left;
+	top: 40px;
+	
+	left: 1200px;
+}
+#email{
+	position: absolute;
+	top: 40px;
+	float: left;
+	left: 1400px;
+}
+#login{
+	position: absolute;
+	top: 33px;
+	left: 1585px;
+}
+#registreren{
+	position: absolute;
+	top: 150px;
+	left: 1200px;
+
+}
+#links{
+	position: absolute;
+	top: 200px;
+	left: 1020px;
+}
+#onderkant{
+	position: absolute;
+	top: 500px;
+	left:0px;
+	z-index:1;
+}
+#foto{
+	position: absolute;
+	top: 500px;
+	width: 1901px;
+	height: 243px;
+}

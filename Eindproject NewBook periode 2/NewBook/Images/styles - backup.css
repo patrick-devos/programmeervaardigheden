@@ -1,0 +1,319 @@
+p{
+	font-family:Tahoma;
+}
+li{
+	font-family:Tahoma;
+	font-size: 13px;
+}
+#logo {
+	top: 10px;
+	position: fixed;
+	left: 15%;
+	width: 25px;
+	height: 25px;
+}
+html {
+       overflow-y: scroll;
+}
+body { 
+	background-color: #E9EBEE;
+	margin:0; 
+}
+#profielfoto{
+	position: fixed;
+	left: 60%;
+	margin: 10px;
+}
+#username{
+	font-family: Tahoma;
+	font-size: 17px;
+	position: fixed;
+	left: 62%;
+	top: -6px;
+	color: white;
+
+}
+#searchbar{
+	position: fixed;
+	top: 10px;
+	width: 250px;
+	left: 17%;
+}
+#zoeken{
+	top: 10px;
+	position: fixed;
+	left: 577px;
+}
+
+#startpagina {
+	position: fixed;
+	left: 1261px;
+	top: -6px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 17px;
+}
+#streepje {
+	position: fixed;
+	left: 1248px;
+	top: -11px;
+	color: grey;
+	font-size: 20px;
+}
+#vrienden {
+	position: fixed;
+	left: 1375px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+#home {
+	position: fixed;
+	left: 1407px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+
+#notifications {
+	position: fixed;
+	left: 1440px;
+	color: white;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+}
+#nieuwsoverzicht{
+	position: fixed;
+	left: 475px;
+}
+#newpost{
+	border-radius: 3px;
+}
+#fotoImg{
+	position: fixed;
+	left: 500px;
+	top: 76px;
+	cursor: pointer;
+}
+#lijn{
+	position: fixed;
+	left: 500px;
+	top: 96px
+}
+#input {
+	position: fixed;
+	top: 105px;
+	left: 500px;
+	width: 480px;
+	height: 200px;
+	overflow:scroll;
+}
+#table{
+	position: fixed;
+	left: 525px;
+	top: 76px;
+	cursor: pointer;
+	
+}
+#text {
+	position: fixed;
+	left: 548px;
+	top: 76px;
+	cursor: pointer;
+}
+#list {
+	position: fixed;
+	left: 572px;
+	top: 76px;
+	cursor: pointer;
+	
+}
+#link{
+	position: fixed;
+	left: 597px;
+	top: 76px;
+	cursor: pointer;
+}
+#video{
+	position: fixed;
+	left: 618px;
+	top: 76px;
+	cursor: pointer;
+	
+}
+#titel{
+	position: fixed;
+	left: 640px;
+	top: 76px;
+	cursor: pointer;
+	
+}
+#voorbeeld {
+	position: fixed;
+	left: 1870px;
+	top: 311px;
+}
+#voorbeelddiv{
+	float: left;
+	top: 70px;
+	width: 100px;
+	height: 100px;
+	left: 1006px;
+	position: fixed;
+	background-color: white;
+	border-radius: 3px;
+	width: 515px; 
+	height: 270px;
+}
+#plaatsenbtn{
+	position:fixed;
+	top: 520px;
+	left: 899px;
+}
+
+#rechtermenu {
+	position: fixed;
+	width: 355px;
+	height: 500px;
+	left: 1016px;
+	top: 71px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+#post1{
+	position: absolute;
+	background-color: white;
+	width: 515px; 
+	height: 490px;
+	top: 580px;
+	left: 484px;
+	border-radius: 3px;
+}
+
+#p1foto{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#p1naam{
+	position: relative;
+	left: 70px;
+	top: -35px;
+	color: #88CCA5;
+}
+#p1actie{
+	position: relative;
+	left: 185px;
+	top: -67px;
+	color: grey;
+	font-size: 12px;
+}
+
+#p1post {
+	position: relative;
+	left: 20px;
+	top: -25px;
+	width: 468px;
+}
+#p1hot {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: -455px;
+	cursor: pointer;
+}#p1cold{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	top: -26px;
+	left: 48px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#canvas{
+	position: fixed;
+	left: 500px;
+	top: 105px;
+	padding:10px;
+	border:1px dashed gray;
+	background-color:#fafafa;
+	height:170px;
+	width: 480px;
+	height: 200px;
+}
+#dynamicframe{
+	position: fixed;
+	left: 500px;
+	top: 308px;
+	width: 478px;
+	height: 200px;
+}
+
+	
+.ed_button{
+	padding:5px;
+}
+#ed_italic_canvas{
+	font-style:italic;
+}
+#ed_bold_canvas{
+	font-weight:bold;
+}
+#ed_h1_canvas{
+	font-weight:bold;
+}
+#ed_h2_canvas{
+	font-weight:bold;
+}
+#ed_h3_canvas{
+	font-weight:bold;
+}
+#ed_h4_canvas{
+	font-weight:bold;
+}
+#ed_link_canvas{
+	color:blue;
+	text-decoration:underline;
+}
+#ed_toolbar_canvas{
+	background:#ddd;
+	padding:5px;
+	padding-top:2px;
+	border:2px solid #777;
+	float:left;
+	margin-top:25px;
+}
+
+.preview{
+	float:right;
+	padding:10px;
+	margin-top:-60px;
+	margin-bottom:10px;
+	font-size:12px;
+	border:1px gray dotted;
+	width:290px;
+}
+.preview h4{
+	font-size:14px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
